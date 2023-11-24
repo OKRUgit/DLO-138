@@ -1,9 +1,8 @@
-// IMPORTANT: LIBRARY MUST BE SPECIFICALLY CONFIGURED FOR EITHER TFT SHIELD
-// OR BREAKOUT BOARD USAGE.  SEE RELEVANT COMMENTS IN Adafruit_TFTLCD.h
+// Важно: библиотека должна быть специально настроена для любого TFT Shield
+// или использование доски прорыва.См. Соответствующие комментарии в ADAFRIT_TFTLCD.H
 
-// Graphics library by ladyada/adafruit with init code from Rossum
-// MIT license
-
+// Графическая библиотека от Ladyada/Adafruit с кодом инициализации от Rossum
+// лицензия MIT
 
 #include "Adafruit_TFTLCD_8bit_STM32.h"
 //#include "pin_magic.h"

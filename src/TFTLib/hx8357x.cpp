@@ -65,6 +65,10 @@ void hx8357x_begin(void)
 // Sets the LCD address window (and address counter, on 932X).
 // Relevant to rect/screen fills and H/V lines.  Input coordinates are
 // assumed pre-sorted (e.g. x2 >= x1).
+
+// Устанавливает окно адресного адреса ЖК -дисплеев (и счетчик адреса, на 932x).
+// Отношение к прямому/экрану и линиям H/V.Входные координаты есть
+// предполагается предварительно сортируемым (например, x2> = x1).
 /*****************************************************************************/
 void hx8357x_setAddrWindow(int x1, int y1, int x2, int y2)
 {

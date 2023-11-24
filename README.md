@@ -2,15 +2,15 @@
 An open source firmware for DSO-138 Oscilloscope. 
 ![Photo](https://github.com/ardyesp/DLO-138/blob/master/pics/pic4.png)
 
-DSO-138 is an excellent piece of hardware based on ARM Cortex M3 core STM32F103 processor and sufficient for most beginner users. The stock firmware, while quite responsive, can use a few improvements. The main shortcoming which prompted the development of DLO-138 firmware is the inability to get waveform data into a computer for further analysis and the lack of a second channel. Engineers troubleshooting hardware issues need to mark reference points on waveform so having another analog or digital channel can greatly improve analysis. This firmware hopes to improve on these issues.
+DSO-138-отличная часть аппаратного обеспечения на основе процессора ARM Cortex M3 Core STM32F103 и достаточным для большинства начинающих пользователей.Стоковая прошивка, хотя и довольно отзывчивая, может использовать несколько улучшений.Основным недостатком, который вызвал разработку прошивки DLO-138, является неспособность довести данные о форме волны в компьютер для дальнейшего анализа и отсутствия второго канала.Инженеры по устранению неисправностей аппаратного обеспечения необходимо отметить контрольные точки на форме волны, чтобы наличие другого аналогового или цифрового канала может значительно улучшить анализ.Эта прошивка надеется улучшить эти проблемы.
 
-## Features
-- Two analog channels
-- Two digital logic channels (SWDIO and SWDIO pins (PA13 and PA14) on board)
-- Serial port interface for captured waveform data
-- Trigger source selectable from Analog Channel 1 or Digital Channel
-- Option to use rotary encoder instead of + - and SEL switches
-- 2K sample depth
+## Функции
+- два аналоговых канала
+- Два цифровых логических канала (SWDIO и SWDIO PINS (PA13 и PA14) на борту)
+- Интерфейс последовательного порта для полученных данных формы сигнала
+- триггер -источник выбирается из аналогового канала 1 или цифрового канала
+- Опция для использования роторного энкодера вместо + - и SEL -переключателей
+- Глубина выборки 2K
 
 This firmware can be used on stock DSO-138 hardware as well. Select one of the pre-compiled binaries to suit the board. Follow the firmware upgrade instructions for DSO-138. At any time, you can reflash DSO-138 with JYE Tech provided firmware.
 
